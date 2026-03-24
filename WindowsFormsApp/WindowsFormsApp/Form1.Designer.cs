@@ -61,6 +61,7 @@
             this.Tinnghia.Size = new System.Drawing.Size(59, 16);
             this.Tinnghia.TabIndex = 2;
             this.Tinnghia.Text = "Tinnghia";
+            this.Tinnghia.Click += new System.EventHandler(this.Tinnghia_Click);
             // 
             // label1
             // 
