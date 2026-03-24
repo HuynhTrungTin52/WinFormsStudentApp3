@@ -31,6 +31,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.Tinnghia = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtCourseName = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -60,11 +62,29 @@
             this.Tinnghia.TabIndex = 2;
             this.Tinnghia.Text = "Tinnghia";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(379, 316);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(93, 16);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Course Name:";
+            // 
+            // txtCourseName
+            // 
+            this.txtCourseName.Location = new System.Drawing.Point(489, 313);
+            this.txtCourseName.Name = "txtCourseName";
+            this.txtCourseName.Size = new System.Drawing.Size(100, 22);
+            this.txtCourseName.TabIndex = 4;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtCourseName);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.Tinnghia);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -80,6 +100,8 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label Tinnghia;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtCourseName;
     }
 }
 
